@@ -1009,12 +1009,17 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
             { "label": "Sprinklr Chatbot Routed", "value": "", "transcriptFields": ["Sprinklr_Chatbot_Routed__c"] },//FY21-0502:[Sprinklr Chat Bot]: Adding new Field to be pushed to transcript
             { "label": "Service Tag", "value": "", "transcriptFields": ["Service_Tag__c"] },//FY21-0502:[Sprinklr Chat Bot]: Adding new Field to be pushed to transcript
             { "label": "SubIssue Key", "value": getIssueTypeKey(snapInObject), "transcriptFields": ["Issue_Key__c"] },//Story FY21-0502 Soty 8020202: Pass issue key to Lightnig for HES Chat
+		
+	    { "label": "URL", "value": 'dell.com', "transcriptFields": ["URL__c"] },//Story FY21-1003 Soty 8020202: Victor test URL
             { "label": "Chat Source", "value": 'EMC', "transcriptFields": ["Chat_Source__c"] },
             { "label": "Serial Number", "value": snapInObject.serviceTag, "transcriptFields": ["Serial_Number__c"] },
             { "label": "CPID", "value": snapInObject.cpid, "transcriptFields": ["CPID__c"] },
             { "label": "EPDM Id", "value": snapInObject.epdmId, "transcriptFields": ["EPDM_Id__c"] },
             { "label": "Product", "value": snapInObject.productName, "transcriptFields": ["Product_Name__c"] },
             { "label": "Site Id", "value": snapInObject.siteId, "transcriptFields": ["Site_Id__c"] }
+		
+	
+		
         ];
     } //STORY 7193324: FY201101[END] //FY210803: HES Generic chat changes [END] 
     else
