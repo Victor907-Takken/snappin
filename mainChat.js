@@ -1010,8 +1010,11 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
             { "label": "Service Tag", "value": "", "transcriptFields": ["Service_Tag__c"] },//FY21-0502:[Sprinklr Chat Bot]: Adding new Field to be pushed to transcript
             { "label": "SubIssue Key", "value": getIssueTypeKey(snapInObject), "transcriptFields": ["Issue_Key__c"] },//Story FY21-0502 Soty 8020202: Pass issue key to Lightnig for HES Chat
 		
-	    { "label": "URL", "value": 'dell.com', "transcriptFields": ["URL__c"] },//Story FY21-1003 Soty 8020202: Victor test URL
-            { "label": "Chat Source", "value": 'EMC', "transcriptFields": ["Chat_Source__c"] },
+	    { "label": "URL", "value": 'dell.com', "transcriptFields": ["URL__c"] },//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+	    { "label": "Web Browser", "value": 'Chrome', "transcriptFields": ["Web_Browser__c"] },//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+            { "label": "Secondary Email Address", "value": 'bnr@dell.com', "transcriptFields": ["Secondary_Email_Address__c"] },//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+	   
+	    { "label": "Chat Source", "value": 'EMC', "transcriptFields": ["Web_Browser__c"] },
             { "label": "Serial Number", "value": snapInObject.serviceTag, "transcriptFields": ["Serial_Number__c"] },
             { "label": "CPID", "value": snapInObject.cpid, "transcriptFields": ["CPID__c"] },
             { "label": "EPDM Id", "value": snapInObject.epdmId, "transcriptFields": ["EPDM_Id__c"] },
