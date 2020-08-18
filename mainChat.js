@@ -2110,6 +2110,12 @@ function initiateChatBot(chatBotObject) {
             { "label": translatedLabels.firstName, /*"value": chatBotObject.FirstName, */"transcriptFields": ["FirstName__c"], "displayToAgent": true },
             { "label": translatedLabels.lastName, /*"value": chatBotObject.LastName, */"transcriptFields": ["LastName__c"], "displayToAgent": true },
             { "label": translatedLabels.emailAdd, /*"value":chatBotObject.Email,*/ "transcriptFields": ["Email__c"], "displayToAgent": true },
+		
+	    //Victor_changes_1003 START//
+	    { "label": "Secondary Email Address", /*"value":chatBotObject.Email,*/ "transcriptFields": ["Secondary_Email_Address__c"], "displayToAgent": true },
+	    { "label": "Web Browser", /*"value":chatBotObject.Email,*/ "transcriptFields": ["Web_Browser__c"], "displayToAgent": true },
+	    { "label": "URL", /*"value":chatBotObject.Email,*/ "transcriptFields": ["URL__c"], "displayToAgent": true },
+	     //Victor_changes_1003 STOP//
             { "label": "product_Model", "value": chatBotObject.product_Model, "transcriptFields": ["product_Model__c"], "displayToAgent": true },
             { "label": "Kb_Article", "value": chatBotObject.Kb_Article, "transcriptFields": ["KB__c"], "displayToAgent": true },
             { "label": "issue_Description", "value": chatBotObject.issue_Description, "transcriptFields": ["issue_Description__c"], "displayToAgent": true },
