@@ -1021,7 +1021,8 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
             { "label": "CPID", "value": snapInObject.cpid, "transcriptFields": ["CPID__c"] },
             { "label": "EPDM Id", "value": snapInObject.epdmId, "transcriptFields": ["EPDM_Id__c"] },
             { "label": "Product", "value": snapInObject.productName, "transcriptFields": ["Product_Name__c"] },
-            { "label": "Site Id", "value": snapInObject.siteId, "transcriptFields": ["Site_Id__c"] }
+            //{ "label": "Site Id", "value": snapInObject.siteId, "transcriptFields": ["Site_Id__c"] }
+	    { "label": "Site Id", "value": 1444353, "transcriptFields": ["Site_Id__c"] } //Story FY21-1003-:[STORY 9161239]:Adding new fields.
 		
 	
 		
