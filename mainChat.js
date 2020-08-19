@@ -1016,7 +1016,7 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
 	    { "label": "Web Browser", "value": 'Chrome', "transcriptFields": ["Web_Browser__c"] },//Story FY21-1003-:[STORY 9161239]:Adding new fields.
             { "label": "Secondary Email Address", "value": 'bnr@dell.com', "transcriptFields": ["Secondary_Email_Address__c"] },//Story FY21-1003-:[STORY 9161239]:Adding new fields.
 	   
-	    { "label": "Chat Source", "value": 'EMC', "transcriptFields": ["Web_Browser__c"] },
+	    { "label": "Chat Source", "value": 'EMC', "transcriptFields": ["Chat_Source__c"] },
             { "label": "Serial Number", "value": snapInObject.serviceTag, "transcriptFields": ["Serial_Number__c"] },
             { "label": "CPID", "value": snapInObject.cpid, "transcriptFields": ["CPID__c"] },
             { "label": "EPDM Id", "value": snapInObject.epdmId, "transcriptFields": ["EPDM_Id__c"] },
