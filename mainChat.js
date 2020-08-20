@@ -132,7 +132,7 @@ function appendCustPreChatSnapinDom(snapInObject, preChatlableObject) {
             preChatlableObject.serviceTag = preChatlableObject.serialNumber;
         }
         //STORY 7193456: FY201101[END]
-        if ("isEmcProduct" in snapInObject && snapInObject.isEmcProduct && snapInObject.SiteId  && (!("epdmId" in snapInObject) || snapInObject.epdmId==Null ))) 
+        if ("isEmcProduct" in snapInObject && snapInObject.isEmcProduct && snapInObject.SiteId  && (!("epdmId" in snapInObject) || snapInObject.epdmId==Null ))
 	{
 	console.log('"isEmcProduct" in snapInObject in if '+"isEmcProduct" in snapInObject);
 		console.log('snapInObject.isEmcProduct in if'+snapInObject.isEmcProduct);
