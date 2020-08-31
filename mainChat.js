@@ -1122,7 +1122,7 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
             "doFind": false,//FY21-0803: STORY #8742782: Change Do find to False in all places
             "fieldName": assetFieldName,//STORY 7193324: FY201101
             "isExactMatch": false,//FY21-0803: STORY #8742782: Change Do find to False in all places
-            "label": "Service Tag"
+            "label": "Asset"
         }
         ],
         "entityName": "Asset",
@@ -2170,7 +2170,7 @@ function initiateChatBot(chatBotObject) {
 
             { "label": "Transcript From", "value": chatBotForm, "transcriptFields": ["Transcript_From__c"], "displayToAgent": true },
             { "label": "Chat Source", "value": isTechOrCare(chatBotObject), "transcriptFields": ["Chat_Source__c"] },
-            { "label": "Service Tag",/* "value": chatBotObject.Service_Tag,*/ "transcriptFields": ["Service_Tag__c"], "displayToAgent": true },
+            { "label": "Asset",/* "value": chatBotObject.Service_Tag,*/ "transcriptFields": ["Service_Tag__c"], "displayToAgent": true },
             { "label": "CARE_Chat_Order_Number", "transcriptFields": ["CARE_Chat_Order_Number__c"], "displayToAgent": true }, // Change for BOT phone March 19 2020
             { "label": "Order Number", "value": appendBuidForCareBot(chatBotObject), "transcriptFields": ["Order_Number__c"] },//FY21-0602: Story #8151253 add BUID to order number
             { "label": "Issue", "value": selectIssueTypeForCareBot(chatBotObject), "transcriptFields": ["Issue__c"] },//FY21-0803: Defect #9058298 add Status if not avilable in bot
@@ -2293,7 +2293,7 @@ function initiateChatBot(chatBotObject) {
                 "doFind": false,//FY21-0803: STORY #8742782: Change Do find to False in all places
                 "fieldName": "Name",
                 "isExactMatch": false,//FY21-0803: STORY #8742782: Change Do find to False in all places
-                "label": "Service Tag"
+                "label": "Asset"
             }
             ],
             "entityName": "Asset",
