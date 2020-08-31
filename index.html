@@ -106,6 +106,12 @@
                                 <label for="emcProductName">ProductName(for EMC legacy)</label>
                             </div>
                             <input style='display:none;' type="text" class="form-control EMC"  id="emcProductName" aria-describedby="serviceTag" placeholder="Enter Product name" value="2.3">
+				<!-- START-Story FY21-1003-:[STORY 9161239]:Adding new fields.-->
+			    <div class='EMC' style='display:none;'>
+                             <label for="emcProductName">Alternate Email(for EMC legacy)</label>
+                            </div>
+                            <input style='display:none;' type="text" class="form-control EMC"  id="emcAlternateEmailAddress" aria-describedby="serviceTag" placeholder="Alternate email can be empty" value="">
+                               <!--END Story FY21-1003-:[STORY 9161239]:Adding new fields.-->
                         </div>
 
                         <!-- Old service tag="6MW0204" 
@@ -1081,9 +1087,9 @@
                 };
                 var preChatlableObject = {
                     firstName:"First Name",
-		    URL:"URL",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
-		    secondaryEmailAddress:"Secondary Email Address",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
-		    webBrowser:"Web Browser",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+		    URL:"URL you are trying to reach(Optional)",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+		    AlternateEmailAddress:"Alternate Email Address",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+		    webBrowser:"Browser version having the issue*",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
                     lastName:"Last Name",
                     SfdcLastName:"Last Name",
                     emailAddress:"Email Address",
@@ -1167,9 +1173,9 @@
                 };
                 var preChatlableObject = {
                     firstName:"First Name",
-		    URL:"URL",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
-		    secondaryEmailAddress:"Secondary Email Address",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
-		    webBrowser:"Web Browser",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+		    URL:"URL you are trying to reach(Optional)",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+		    AlternateEmailAddress:"Alternate Email Address",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
+		    webBrowser:"Browser version having the issue*",//Story FY21-1003-:[STORY 9161239]:Adding new fields.
                     lastName:"Last Name",
                     emailAddress:"Email Address",
                     phoneNumber:"Primary Phone Number",
