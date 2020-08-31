@@ -2256,7 +2256,7 @@ function initiateChatBot(chatBotObject) {
                 "doFind": false,//FY21-0803: STORY #8742782: Change Do find to False in all places
                 "fieldName": "Name",
                 "isExactMatch": false,//FY21-0803: STORY #8742782: Change Do find to False in all places
-                "label": "Service Tag"
+                "label": "Asset"
             }
             ],
             "entityName": "Asset",
