@@ -1079,7 +1079,7 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
         },
         //FY21-0502:[Sprinklr Chat Bot]: Adding new Field to be pushed to transcript[END]
         {
-            "label": "Service Tag",
+            "label": "Asset",
             "value": snapInObject.serviceTag,
             "transcriptFields": ["Service_Tag__c"]
         }, {
