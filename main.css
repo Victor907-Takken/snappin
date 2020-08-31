@@ -147,12 +147,4 @@ input.form-control {
 
 
 
-.cusPreChat-FormBtns:hover, .cusPreChatFormBtns:hover .cusPreChat-FormBtnchild,.cusPreChatFormBtns:hover .cusPreChat-FormBtnchild path {
-    color: #004071 !important;
-	fill: #004071;
-}
 
-.cusPreChat-FormBtns, .cusPreChatFormBtns .cusPreChat-FormBtnchild, .cusPreChatFormBtns .cusPreChat-FormBtnchild path {
-    color: #006BBD;
-    fill: #006BBD;
-}
