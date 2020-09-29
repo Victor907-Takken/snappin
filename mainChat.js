@@ -2426,6 +2426,11 @@ function initiateChatBot(chatBotObject) {
         embedded_svc.settings.defaultMinimizedText = "Get Started";
         embedded_svc.settings.enabledFeatures = ['LiveAgent'];
         embedded_svc.settings.entryFeature = 'LiveAgent';
+	//adding for POC
+	embedded_svc.addEventHandler("onAgentMessage", function(data) {
+        console.log("onAgentMessage event was fired.  liveAgentSessionKey was " + data.liveAgentSessionKey);
+        });
+	    //adding for POC
         embedded_svc.init(chatBotObject.chatBotInitURL, chatBotObject.chatBotLAURL, gslbBaseURL, chatBotObject.organizationId, chatBotObject.componentName, {
             baseLiveAgentContentURL: chatBotObject.baseLiveAgentContentURL,
             deploymentId: chatBotObject.deploymentId,
