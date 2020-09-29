@@ -1276,6 +1276,7 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
     });*/
     //FY21-0202 Fix for defect 7917426 [END]
     embedded_svc.addEventHandler("onAgentMessage", function (data) {
+	    console.log('entered here POC')
         snapinChatInitiatedState(true);
     });
 
@@ -2427,9 +2428,7 @@ function initiateChatBot(chatBotObject) {
         embedded_svc.settings.enabledFeatures = ['LiveAgent'];
         embedded_svc.settings.entryFeature = 'LiveAgent';
 	//adding for POC
-	embedded_svc.addEventHandler("onAgentMessage", function(data) {
-        console.log("onAgentMessage event was fired.  liveAgentSessionKey was " + data.liveAgentSessionKey);
-        });
+	
 	    //adding for POC
         embedded_svc.init(chatBotObject.chatBotInitURL, chatBotObject.chatBotLAURL, gslbBaseURL, chatBotObject.organizationId, chatBotObject.componentName, {
             baseLiveAgentContentURL: chatBotObject.baseLiveAgentContentURL,
