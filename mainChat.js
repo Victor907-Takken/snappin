@@ -1276,7 +1276,9 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
     });*/
     //FY21-0202 Fix for defect 7917426 [END]
     embedded_svc.addEventHandler("onAgentMessage", function (data) {
-	    console.log('entered here POC')
+	    console.log('entered here POC test sound'+data);
+	    var x = new Audio('https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3');
+	    x.play();
         snapinChatInitiatedState(true);
     });
 
