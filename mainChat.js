@@ -1276,7 +1276,10 @@ function initOriginalESW(gslbBaseURL, snapInObject) {
             });
     });*/
     //FY21-0202 Fix for defect 7917426 [END]
-    embedded_svc.addEventHandler("onAgentMessage", function (data) {
+     embedded_svc.addEventHandler("onAgentMessage", function (data) {
+	    console.log('entered here POC test sound'+data);
+	    var x = new Audio('https://www.soundjay.com/button/sounds/beep-01a.mp3');
+	    x.play();
         snapinChatInitiatedState(true);
     });
 
